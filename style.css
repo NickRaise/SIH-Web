@@ -1,0 +1,58 @@
+:root {
+    --primary-background-color: #0E1726;
+    --secondary-background-color: #151725;
+    --primary-text-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--secondary-background-color);
+    height: 200vh;
+}
+
+/* Utility section */
+h1 {
+    font-size: 2rem;
+    color: white;
+}
+
+
+
+
+
+/*------------------------ Styling-------------------------------- */
+.nav-bar {
+    background-color: var(--primary-background-color);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black, -2px -2px 10px black;
+    min-width: 85%;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-heading {
+    color: white;
+}
+
+.hero-section {
+    background-image: url(./img/hero-bg.svg);
+    height: 200px;
+    width: 100%;
+    margin: auto;
+    background-color: #3b3f5c;
+    background-attachment: fixed;
+}
+
+.working-section {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    background-color: var(--primary-background-color);
+    text-align: center;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12), 0 3px 5px -1px rgba(0, 0, 0, .2)
+}
